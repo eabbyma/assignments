@@ -41,8 +41,9 @@ WHERE Color IS NOT NULL
 -- NAME: Chainring Bolts  --  COLOR: Silver
 -- NAME: Chainring Nut  --  COLOR: Silver
 -- NAME: Chainring  --  COLOR: Black
-SELECT CONCAT_WS('-- NAME', Name, '-- COLOR', Color)
+SELECT '-- NAME: ' + Name + ' -- COLOR: ' + Color
 FROM Production.Product
+WHERE Color IS NOT NULL
 
 -- 7. Write a query to retrieve the to the columns ProductID and Name from the Production.Product table filtered by ProductID from 400 to 500 using between
 
