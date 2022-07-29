@@ -54,7 +54,8 @@ WHERE ProductID BETWEEN 400 AND 500
 -- Name and color from the Production.Product table restricted to the colors black and blue
 SELECT ProductID, Name, Color
 FROM Production.Product
-WHERE Color = 'black' OR Color = 'blue'
+-- WHERE Color = 'black' OR Color = 'blue'
+WHERE Color in ('Black', 'Blue')
 
 
 -- 9. Write a query to get a result set on products that begins
@@ -90,3 +91,4 @@ ORDER BY Name
 SELECT DISTINCT ProductSubcategoryID, Color
 From Production.Product
 Where ProductSubcategoryID IS NOT NULL And Color IS NOT NULL
+Order by ProductSubcategoryID, Color
