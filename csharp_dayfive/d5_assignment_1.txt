@@ -7,27 +7,36 @@
 PART 1 --------- Understanding Data Types | Test your Knowledge
 
 1. What type would you choose for the following “numbers”?
-A person’s telephone number - String 
-A person’s height - Float
-A person’s age - Integer
-A person’s gender (Male, Female, Prefer Not To Answer) - String 
-A person’s salary - Float
-A book’s ISBN - String
-A book’s price - Float 
-A book’s shipping weight - Float
-A country’s population - Integer
+
+A person’s telephone number - string 
+A person’s height - float or decimal
+A person’s age - int
+A person’s gender (Male, Female, Prefer Not To Answer) - string 
+A person’s salary - float
+A book’s ISBN - string
+A book’s price - float or decimal 
+A book’s shipping weight - float
+A country’s population - long
 The number of stars in the universe - Integer
 The number of employees in each of the small or medium businesses in the 
-United Kingdom (up to about 50,000 employees per business) - Integer
+United Kingdom (up to about 50,000 employees per business) - int
 
-2. What are the difference between value type and reference type variables? 
+2. What are the difference between value type and reference type variables?
+There are many difference between them:
+1. Values directly contain their data, references store references to their data (Known as objects). 
+Value type will directly hold the value, while reference type will hold the memory address or reference for this value
+2. Values each has its own copy of data, two reference variable can reference the same object.
+3. Values operation on one can not effect another, reference operation on one can effect another.
+4. Value types are stored in stack memory, while reference type will be stored in heap memory
+5. Value types will not be collected by garbage collector, while reference type will be collected by garbage collector 
+6. Value type can be created by Struct or Enum, while Reference type can be created by class, interface, delegate, or array
+7. Value type cannot accept null value, but reference types can accept null values
+
 What is boxing and unboxing?
-
-A Value Type holds the data within its own memory allocation and 
-a Reference Type contains a pointer to another memory location that holds the real data.
-
 Boxing is the process of converting a value type to the type object or to any interface type implemented by this value type. 
 Unboxing is an explicit conversion from the type object to a value type or from an interface type to a value type that implements the interface. 
+Convert a value type to a reference type - boxing
+Convert a reference type to a value type - unboxing
 
 3. What is meant by the terms managed resource and unmanaged resource in .NET
 Managed resources are those that are pure . NET code and managed by the runtime and are under its direct control. 
