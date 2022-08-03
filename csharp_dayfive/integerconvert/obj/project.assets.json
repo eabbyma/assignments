@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/e/Desktop/Antra/assignments/csharp_dayfive/assignment_one_dayfive/assignment_one_dayfive.csproj",
-      "projectName": "assignment_one_dayfive",
-      "projectPath": "/Users/e/Desktop/Antra/assignments/csharp_dayfive/assignment_one_dayfive/assignment_one_dayfive.csproj",
+      "projectUniqueName": "/Users/e/Desktop/Antra/assignments/csharp_dayfive/integerconvert/integerconvert.csproj",
+      "projectName": "integerconvert",
+      "projectPath": "/Users/e/Desktop/Antra/assignments/csharp_dayfive/integerconvert/integerconvert.csproj",
       "packagesPath": "/Users/e/.nuget/packages/",
-      "outputPath": "/Users/e/Desktop/Antra/assignments/csharp_dayfive/assignment_one_dayfive/obj/",
+      "outputPath": "/Users/e/Desktop/Antra/assignments/csharp_dayfive/integerconvert/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/e/.nuget/NuGet/NuGet.Config"

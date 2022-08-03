@@ -1,0 +1,15 @@
+/Users/e/Desktop/Antra/assignments/csharp_dayfive/hackerNameGenerator/bin/Debug/net6.0/hackerNameGenerator
+/Users/e/Desktop/Antra/assignments/csharp_dayfive/hackerNameGenerator/bin/Debug/net6.0/hackerNameGenerator.deps.json
+/Users/e/Desktop/Antra/assignments/csharp_dayfive/hackerNameGenerator/bin/Debug/net6.0/hackerNameGenerator.runtimeconfig.json
+/Users/e/Desktop/Antra/assignments/csharp_dayfive/hackerNameGenerator/bin/Debug/net6.0/hackerNameGenerator.dll
+/Users/e/Desktop/Antra/assignments/csharp_dayfive/hackerNameGenerator/bin/Debug/net6.0/hackerNameGenerator.pdb
+/Users/e/Desktop/Antra/assignments/csharp_dayfive/hackerNameGenerator/obj/Debug/net6.0/hackerNameGenerator.csproj.AssemblyReference.cache
+/Users/e/Desktop/Antra/assignments/csharp_dayfive/hackerNameGenerator/obj/Debug/net6.0/hackerNameGenerator.GeneratedMSBuildEditorConfig.editorconfig
+/Users/e/Desktop/Antra/assignments/csharp_dayfive/hackerNameGenerator/obj/Debug/net6.0/hackerNameGenerator.AssemblyInfoInputs.cache
+/Users/e/Desktop/Antra/assignments/csharp_dayfive/hackerNameGenerator/obj/Debug/net6.0/hackerNameGenerator.AssemblyInfo.cs
+/Users/e/Desktop/Antra/assignments/csharp_dayfive/hackerNameGenerator/obj/Debug/net6.0/hackerNameGenerator.csproj.CoreCompileInputs.cache
+/Users/e/Desktop/Antra/assignments/csharp_dayfive/hackerNameGenerator/obj/Debug/net6.0/hackerNameGenerator.dll
+/Users/e/Desktop/Antra/assignments/csharp_dayfive/hackerNameGenerator/obj/Debug/net6.0/refint/hackerNameGenerator.dll
+/Users/e/Desktop/Antra/assignments/csharp_dayfive/hackerNameGenerator/obj/Debug/net6.0/hackerNameGenerator.pdb
+/Users/e/Desktop/Antra/assignments/csharp_dayfive/hackerNameGenerator/obj/Debug/net6.0/hackerNameGenerator.genruntimeconfig.cache
+/Users/e/Desktop/Antra/assignments/csharp_dayfive/hackerNameGenerator/obj/Debug/net6.0/ref/hackerNameGenerator.dll

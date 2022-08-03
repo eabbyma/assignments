@@ -56,9 +56,12 @@ didn't/ intend to add!
 Using just the ReadLine and WriteLine methods and your current knowledge of variables,
 you can have the user pass in quite a few bits of information. Using this approach, create a
 console application that asks the user a few questions and then generates some custom
-output for them. For instance, your program could generate their "hacker name" by asking
+output for them. 
+For instance, your program could generate their "hacker name" by asking
 them their favorite color, their astrology sign, and their street address number. The result
 might be something like "Your hacker name is RedGemini480."
+
+Answer: Please find hackerNameGenerator
 
 Practice number sizes and ranges
 
@@ -67,6 +70,21 @@ number of bytes in memory that each of the following number types uses, and the
 minimum and maximum values they can have: sbyte, byte, short, ushort, int, uint, long,
 ulong, float, double, and decimal.
 Composite Formatting to learn how to align text in a console application
+
+Answer: Please find 02UnderstandingTypes 
+
+Output: 
+sbyte - Number of bytes in memory: 8 bits| Minimum value: -128| Maximum value: 127
+byte - Number of bytes in memory: 8 bits| Minimum value: 0| Maximum value: 255
+short - Number of bytes in memory: 16 bits| Minimum value: -32768| Maximum value: 32767
+ushort - Number of bytes in memory: 16 bits| Minimum value: 0| Maximum value: 65535
+int - Number of bytes in memory: 32 bits| Minimum value: -2147483648| Maximum value: 2147483647
+uint - Number of bytes in memory: 32 bits| Minimum value: 0| Maximum value: 4294967295
+long - Number of bytes in memory: 64 bits| Minimum value: -9223372036854775808| Maximum value: 9223372036854775807
+ulong - Number of bytes in memory: 64 bits| Minimum value: 0| Maximum value: 18446744073709551615
+float - Number of bytes in memory: 32 bits| Minimum value: -3.4028235E+38| Maximum value: 3.4028235E+38
+double - Number of bytes in memory: 64 bits| Minimum value: -1.7976931348623157E+308| Maximum value: 1.7976931348623157E+308
+decimal - Number of bytes in memory: 128 bits| Minimum value: -79228162514264337593543950335| Maximum value: 79228162514264337593543950335
 
 2. Write program to enter an integer number of centuries and convert it to years, days, hours,
 minutes, seconds, milliseconds, microseconds, nanoseconds. Use an appropriate data
@@ -79,6 +97,8 @@ Input: 5
 Output: 5 centuries = 500 years = 182621 days = 4382904 hours = 262974240
 minutes = 15778454400 seconds = 15778454400000 milliseconds = 15778454400000000
 microseconds = 15778454400000000000 nanoseconds
+
+Answer: Please find integerconvert  
 
 PART 3 --------- Explore following topics
 
@@ -94,16 +114,44 @@ Controlling Flow and Converting Types
 PART 4 --------- Test your Knowledge
 
 1. What happens when you divide an int variable by 0?
-Exception: DivideByZeroException
+We will get an exception: DivideByZeroException
+
+System.DivideByZeroException: Attempted to divide by zero.
+  at MyApplication.Program.Main (System.String[] args) [0x00018] in <4b85494b67fd44d2b7e39c47e3f704ee>:0 
+[ERROR] FATAL UNHANDLED EXCEPTION: System.DivideByZeroException: Attempted to divide by zero.
+  at MyApplication.Program.Main (System.String[] args) [0x00018] in <4b85494b67fd44d2b7e39c47e3f704ee>:0 
 
 2. What happens when you divide a double variable by 0?
+Infinity
 
 3. What happens when you overflow an int variable, that is, set it to a value beyond its
 range?
+If your value is greater than the maximum int value, then your loop will run forever because of this.
+the int wraps around from 2147483647 back to -2147483648 and the loop just keeps on going.
 
 4. What is the difference between x = y++; and x = ++y;?
+++y is called pre-increment uses the principle ‘change-then-use’
+x++ is called post-increment uses the principle ‘use-then-change’
 
 5. What is the difference between break, continue, and return when used inside a loop
 statement?
 
+Break, continue and return are jump statements.
+
+The break statement is used to terminate the loop or statement in which it present. 
+After that, the control will pass to the statements that present after the break statement, 
+if available. If the break statement present in the nested loop, 
+then it terminates only those loops which contains break statement. 
+
+This continue statement is used to skip over the execution part of the loop on a certain condition. 
+After that, it transfers the control to the beginning of the loop. 
+Basically, it skips its following statements and continues with the next iteration of the loop.
+
+This statement terminates the execution of the method and returns the control to the calling method. 
+It returns an optional value. If the type of method is void, then the return statement can be excluded.
+
 6. What are the three parts of a for statement and which of them are required?
+1. Key word For.
+2. initialization (usually of a loop control variable), continuation test on whether to do another iteration, and an update step.
+3. A loop body
+All of them are required.
