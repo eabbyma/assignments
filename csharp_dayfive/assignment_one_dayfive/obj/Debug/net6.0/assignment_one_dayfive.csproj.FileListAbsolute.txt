@@ -1,0 +1,15 @@
+/Users/e/Desktop/Antra/assignments/assignment_one_dayfive/bin/Debug/net6.0/assignment_one_dayfive
+/Users/e/Desktop/Antra/assignments/assignment_one_dayfive/bin/Debug/net6.0/assignment_one_dayfive.deps.json
+/Users/e/Desktop/Antra/assignments/assignment_one_dayfive/bin/Debug/net6.0/assignment_one_dayfive.runtimeconfig.json
+/Users/e/Desktop/Antra/assignments/assignment_one_dayfive/bin/Debug/net6.0/assignment_one_dayfive.dll
+/Users/e/Desktop/Antra/assignments/assignment_one_dayfive/bin/Debug/net6.0/assignment_one_dayfive.pdb
+/Users/e/Desktop/Antra/assignments/assignment_one_dayfive/obj/Debug/net6.0/assignment_one_dayfive.csproj.AssemblyReference.cache
+/Users/e/Desktop/Antra/assignments/assignment_one_dayfive/obj/Debug/net6.0/assignment_one_dayfive.GeneratedMSBuildEditorConfig.editorconfig
+/Users/e/Desktop/Antra/assignments/assignment_one_dayfive/obj/Debug/net6.0/assignment_one_dayfive.AssemblyInfoInputs.cache
+/Users/e/Desktop/Antra/assignments/assignment_one_dayfive/obj/Debug/net6.0/assignment_one_dayfive.AssemblyInfo.cs
+/Users/e/Desktop/Antra/assignments/assignment_one_dayfive/obj/Debug/net6.0/assignment_one_dayfive.csproj.CoreCompileInputs.cache
+/Users/e/Desktop/Antra/assignments/assignment_one_dayfive/obj/Debug/net6.0/assignment_one_dayfive.dll
+/Users/e/Desktop/Antra/assignments/assignment_one_dayfive/obj/Debug/net6.0/refint/assignment_one_dayfive.dll
+/Users/e/Desktop/Antra/assignments/assignment_one_dayfive/obj/Debug/net6.0/assignment_one_dayfive.pdb
+/Users/e/Desktop/Antra/assignments/assignment_one_dayfive/obj/Debug/net6.0/assignment_one_dayfive.genruntimeconfig.cache
+/Users/e/Desktop/Antra/assignments/assignment_one_dayfive/obj/Debug/net6.0/ref/assignment_one_dayfive.dll

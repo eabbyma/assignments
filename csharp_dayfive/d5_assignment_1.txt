@@ -7,7 +7,6 @@
 PART 1 --------- Understanding Data Types | Test your Knowledge
 
 1. What type would you choose for the following “numbers”?
-
 A person’s telephone number - String 
 A person’s height - Float
 A person’s age - Integer
