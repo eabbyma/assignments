@@ -1,0 +1,15 @@
+/Users/e/Desktop/Antra/assignments/csharp_dayfive/02UnderstandingTypes/obj/Debug/net6.0/02UnderstandingTypes.csproj.AssemblyReference.cache
+/Users/e/Desktop/Antra/assignments/csharp_dayfive/02UnderstandingTypes/obj/Debug/net6.0/02UnderstandingTypes.GeneratedMSBuildEditorConfig.editorconfig
+/Users/e/Desktop/Antra/assignments/csharp_dayfive/02UnderstandingTypes/obj/Debug/net6.0/02UnderstandingTypes.AssemblyInfoInputs.cache
+/Users/e/Desktop/Antra/assignments/csharp_dayfive/02UnderstandingTypes/obj/Debug/net6.0/02UnderstandingTypes.AssemblyInfo.cs
+/Users/e/Desktop/Antra/assignments/csharp_dayfive/02UnderstandingTypes/obj/Debug/net6.0/02UnderstandingTypes.csproj.CoreCompileInputs.cache
+/Users/e/Desktop/Antra/assignments/csharp_dayfive/02UnderstandingTypes/bin/Debug/net6.0/02UnderstandingTypes
+/Users/e/Desktop/Antra/assignments/csharp_dayfive/02UnderstandingTypes/bin/Debug/net6.0/02UnderstandingTypes.deps.json
+/Users/e/Desktop/Antra/assignments/csharp_dayfive/02UnderstandingTypes/bin/Debug/net6.0/02UnderstandingTypes.runtimeconfig.json
+/Users/e/Desktop/Antra/assignments/csharp_dayfive/02UnderstandingTypes/bin/Debug/net6.0/02UnderstandingTypes.dll
+/Users/e/Desktop/Antra/assignments/csharp_dayfive/02UnderstandingTypes/bin/Debug/net6.0/02UnderstandingTypes.pdb
+/Users/e/Desktop/Antra/assignments/csharp_dayfive/02UnderstandingTypes/obj/Debug/net6.0/02UnderstandingTypes.dll
+/Users/e/Desktop/Antra/assignments/csharp_dayfive/02UnderstandingTypes/obj/Debug/net6.0/refint/02UnderstandingTypes.dll
+/Users/e/Desktop/Antra/assignments/csharp_dayfive/02UnderstandingTypes/obj/Debug/net6.0/02UnderstandingTypes.pdb
+/Users/e/Desktop/Antra/assignments/csharp_dayfive/02UnderstandingTypes/obj/Debug/net6.0/02UnderstandingTypes.genruntimeconfig.cache
+/Users/e/Desktop/Antra/assignments/csharp_dayfive/02UnderstandingTypes/obj/Debug/net6.0/ref/02UnderstandingTypes.dll
