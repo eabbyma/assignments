@@ -1,10 +1,9 @@
-
-// Name: E Ma
-// Email: eaabyma@gmail.com
+Name: E Ma
+Email: eaabyma@gmail.com
 
 01 Introduction to C# and Data Types 
 
-PART 1 --------- Understanding Data Types | Test your Knowledge
+PART 1 --------- Understanding Data Types | Test your Knowledge ---------------------------------------------
 
 1. What type would you choose for the following “numbers”?
 
@@ -21,7 +20,7 @@ The number of stars in the universe - Integer
 The number of employees in each of the small or medium businesses in the 
 United Kingdom (up to about 50,000 employees per business) - int
 
-2. What are the difference between value type and reference type variables?
+2. What are the difference between value type and reference type variables? 
 There are many difference between them:
 1. Values directly contain their data, references store references to their data (Known as objects). 
 Value type will directly hold the value, while reference type will hold the memory address or reference for this value
@@ -38,15 +37,15 @@ Unboxing is an explicit conversion from the type object to a value type or from 
 Convert a value type to a reference type - boxing
 Convert a reference type to a value type - unboxing
 
-3. What is meant by the terms managed resource and unmanaged resource in .NET
+3. What is meant by the terms managed resource and unmanaged resource in .NET 
 Managed resources are those that are pure . NET code and managed by the runtime and are under its direct control. 
 Unmanaged resources are those that run outside the . NET runtime (CLR)(aka non-. NET code.) 
 
-4. Whats the purpose of Garbage Collector in .NET?
+4. Whats the purpose of Garbage Collector in .NET? 
 . NET's garbage collector manages the allocation and release of memory for your application. 
 Each time you create a new object, the common language runtime allocates memory for the object from the managed heap.
 
-PART 2 --------- Playing with Console App
+PART 2 --------- Playing with Console App ---------------------------------------------
 
 Modify your console application to display a different message. Go ahead and
 intentionally add some mistakes to your program, so you can see what kinds of error
@@ -86,7 +85,7 @@ float - Number of bytes in memory: 32 bits| Minimum value: -3.4028235E+38| Maxim
 double - Number of bytes in memory: 64 bits| Minimum value: -1.7976931348623157E+308| Maximum value: 1.7976931348623157E+308
 decimal - Number of bytes in memory: 128 bits| Minimum value: -79228162514264337593543950335| Maximum value: 79228162514264337593543950335
 
-2. Write program to enter an integer number of centuries and convert it to years, days, hours,
+2. Write program to enter an integer number of centuries and convert it to years, days, hours, 
 minutes, seconds, milliseconds, microseconds, nanoseconds. Use an appropriate data
 type for every data conversion. Beware of overflows!
 Input: 1
@@ -100,7 +99,7 @@ microseconds = 15778454400000000000 nanoseconds
 
 Answer: Please find integerconvert  
 
-PART 3 --------- Explore following topics
+PART 3 --------- Explore following topics ---------------------------------------------
 
 C# Keywords
 Main() and command-line arguments
@@ -111,7 +110,7 @@ Nullable Types (C# Programming Guide)
 Nullable reference types
 Controlling Flow and Converting Types
 
-PART 4 --------- Test your Knowledge
+PART 4 --------- Test your Knowledge ---------------------------------------------
 
 1. What happens when you divide an int variable by 0?
 We will get an exception: DivideByZeroException
