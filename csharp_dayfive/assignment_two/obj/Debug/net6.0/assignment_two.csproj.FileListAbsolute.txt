@@ -1,0 +1,15 @@
+/Users/e/Desktop/Antra/assignments/csharp_dayfive/assignment_two/obj/Debug/net6.0/assignment_two.csproj.AssemblyReference.cache
+/Users/e/Desktop/Antra/assignments/csharp_dayfive/assignment_two/obj/Debug/net6.0/assignment_two.GeneratedMSBuildEditorConfig.editorconfig
+/Users/e/Desktop/Antra/assignments/csharp_dayfive/assignment_two/obj/Debug/net6.0/assignment_two.AssemblyInfoInputs.cache
+/Users/e/Desktop/Antra/assignments/csharp_dayfive/assignment_two/obj/Debug/net6.0/assignment_two.AssemblyInfo.cs
+/Users/e/Desktop/Antra/assignments/csharp_dayfive/assignment_two/obj/Debug/net6.0/assignment_two.csproj.CoreCompileInputs.cache
+/Users/e/Desktop/Antra/assignments/csharp_dayfive/assignment_two/bin/Debug/net6.0/assignment_two
+/Users/e/Desktop/Antra/assignments/csharp_dayfive/assignment_two/bin/Debug/net6.0/assignment_two.deps.json
+/Users/e/Desktop/Antra/assignments/csharp_dayfive/assignment_two/bin/Debug/net6.0/assignment_two.runtimeconfig.json
+/Users/e/Desktop/Antra/assignments/csharp_dayfive/assignment_two/bin/Debug/net6.0/assignment_two.dll
+/Users/e/Desktop/Antra/assignments/csharp_dayfive/assignment_two/bin/Debug/net6.0/assignment_two.pdb
+/Users/e/Desktop/Antra/assignments/csharp_dayfive/assignment_two/obj/Debug/net6.0/assignment_two.dll
+/Users/e/Desktop/Antra/assignments/csharp_dayfive/assignment_two/obj/Debug/net6.0/refint/assignment_two.dll
+/Users/e/Desktop/Antra/assignments/csharp_dayfive/assignment_two/obj/Debug/net6.0/assignment_two.pdb
+/Users/e/Desktop/Antra/assignments/csharp_dayfive/assignment_two/obj/Debug/net6.0/assignment_two.genruntimeconfig.cache
+/Users/e/Desktop/Antra/assignments/csharp_dayfive/assignment_two/obj/Debug/net6.0/ref/assignment_two.dll
