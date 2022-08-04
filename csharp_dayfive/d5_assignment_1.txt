@@ -62,6 +62,27 @@ might be something like "Your hacker name is RedGemini480."
 
 Answer: Please find hackerNameGenerator
 
+using System;
+
+namespace MyApplication
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine("Enter your favorite color:");
+            string color = Console.ReadLine();
+
+            Console.WriteLine("Enter your astrology sign:");
+            String sign = Console.ReadLine();
+
+            Console.WriteLine("Enter your street address number:");
+            String num = Console.ReadLine();
+
+            Console.WriteLine("Your hacker name is" + color + sign + num);
+        }
+    }
+}
 Practice number sizes and ranges
 
 1. Create a console application project named /02UnderstandingTypes/ that outputs the
@@ -71,6 +92,52 @@ ulong, float, double, and decimal.
 Composite Formatting to learn how to align text in a console application
 
 Answer: Please find 02UnderstandingTypes 
+
+using System;
+class Program
+{
+    static void Main(string[] args)
+    {
+        sbyte sbyte_ = -12;
+        byte byte_ = 2;
+        short short_ = 2;
+        ushort ushort_ = 2;
+        int intVar = 100;
+        uint ui = 100u;
+        float fl = 10.2f;
+        long l = 45755452222222L;
+        ulong ul = 45755452222222ul;
+        double d = 11452222.555d;
+        decimal mon = 1000.15m;
+
+
+        string[] types = { "sbyte", "byte", "short", "ushort", "int", "uint", "long",
+"ulong", "float", "double", "decimal"};
+
+        object[] allvalues = { sbyte_, byte_, intVar, short_, ushort_, intVar, ui, fl, l, ul, d, mon };
+
+        foreach (var ty in allvalues)
+        {
+            Console.WriteLine(ty.GetType());
+            // Console.WriteLine(ty.MinValue);
+            // Console.WriteLine("Number of bytes in memory:" + sizeof(ty.GetType()));
+            // Console.WriteLine("Minimum value: " + ty.GetType().MinValue);
+            // Console.WriteLine("Maximum value: " + ty.GetType().MaxValue);
+        }
+
+        Console.WriteLine("sbyte - Number of bytes in memory: 8 bits" + "| Minimum value: " + sbyte.MinValue + "| Maximum value: " + sbyte.MaxValue);
+        Console.WriteLine("byte - Number of bytes in memory: 8 bits" + "| Minimum value: " + byte.MinValue + "| Maximum value: " + byte.MaxValue);
+        Console.WriteLine("short - Number of bytes in memory: 16 bits" + "| Minimum value: " + short.MinValue + "| Maximum value: " + short.MaxValue);
+        Console.WriteLine("ushort - Number of bytes in memory: 16 bits" + "| Minimum value: " + ushort.MinValue + "| Maximum value: " + ushort.MaxValue);
+        Console.WriteLine("int - Number of bytes in memory: 32 bits" + "| Minimum value: " + int.MinValue + "| Maximum value: " + int.MaxValue);
+        Console.WriteLine("uint - Number of bytes in memory: 32 bits" + "| Minimum value: " + uint.MinValue + "| Maximum value: " + uint.MaxValue);
+        Console.WriteLine("long - Number of bytes in memory: 64 bits" + "| Minimum value: " + long.MinValue + "| Maximum value: " + long.MaxValue);
+        Console.WriteLine("ulong - Number of bytes in memory: 64 bits" + "| Minimum value: " + ulong.MinValue + "| Maximum value: " + ulong.MaxValue);
+        Console.WriteLine("float - Number of bytes in memory: 32 bits" + "| Minimum value: " + float.MinValue + "| Maximum value: " + float.MaxValue);
+        Console.WriteLine("double - Number of bytes in memory: 64 bits" + "| Minimum value: " + double.MinValue + "| Maximum value: " + double.MaxValue);
+        Console.WriteLine("decimal - Number of bytes in memory: 128 bits" + "| Minimum value: " + decimal.MinValue + "| Maximum value: " + decimal.MaxValue);
+    }
+}
 
 Output: 
 sbyte - Number of bytes in memory: 8 bits| Minimum value: -128| Maximum value: 127
@@ -98,6 +165,54 @@ minutes = 15778454400 seconds = 15778454400000 milliseconds = 15778454400000000
 microseconds = 15778454400000000000 nanoseconds
 
 Answer: Please find integerconvert  
+
+// See https://aka.ms/new-console-template for more information
+
+// Write program to enter an integer number of centuries and convert it to years, days, hours,
+// minutes, seconds, milliseconds, microseconds, nanoseconds. Use an appropriate data
+// type for every data conversion. Beware of overflows!
+// Input: 1
+// Output: 1 centuries = 100 years = 36524 days = 876576 hours = 52594560 minutes
+// = 3155673600 seconds = 3155673600000 milliseconds = 3155673600000000
+// microseconds = 3155673600000000000 nanoseconds
+// Input: 5
+// Output: 5 centuries = 500 years = 182621 days = 4382904 hours = 262974240
+// minutes = 15778454400 seconds = 15778454400000 milliseconds = 15778454400000000
+// microseconds = 15778454400000000000 nanoseconds
+
+using System;
+class Program
+{
+    static void Main(string[] args)
+    {
+        // Initalize constant variables
+        int UNIT_CENTRY = 100;
+        int UNIT_DAY = 365;
+        int UNIT_TIME = 60;
+        int UNIT_HOUR = 24;
+
+        // Prompt user for input
+        Console.WriteLine("Enter Integer: ");
+
+        // Store input to a variable
+        int userinput = Convert.ToInt32(Console.ReadLine());
+
+
+        int centuries = userinput * UNIT_CENTRY;
+        int years = centuries * UNIT_DAY;
+        int days = years * UNIT_DAY;
+        int hours = days * UNIT_HOUR;
+        int minutes = hours * UNIT_TIME;
+        int seconds = checked(minutes * UNIT_TIME);
+        long milliseconds = checked(seconds * UNIT_TIME);
+        long microseconds = checked(milliseconds * UNIT_TIME);
+        long nanoseconds = checked(microseconds * UNIT_TIME);
+
+        Console.WriteLine("centuries =" + centuries + '\n' + "years =" + years + "\n" + "days =" + days + "\n" + "hours =" + hours + "\n" + "minutes =" + minutes + "\n" + "seconds =" + seconds + '\n' + "milliseconds =" + milliseconds + "\n" + "microseconds =" + microseconds + "\n" + "nanoseconds =" + nanoseconds );
+
+    }
+}
+
 
 PART 3 --------- Explore following topics ---------------------------------------------
 
