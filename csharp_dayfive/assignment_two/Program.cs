@@ -5,9 +5,11 @@ class Program
 {
     static void Main(string[] args)
     {
-        CopyArray();
+        // CopyArray();
         // ManageList();
-        FindPrimesInRange(1, 10);
+        // FindPrimesInRange(1, 10);
+        // ReverseWords("/Yes! Really!!!/");
+        FindPalindromes("Hi,exe? ABBA! Hog fully a string: ExE. Bob");
     }
     // Write code to create a copy of an array. First, start by creating an initial array. (You can use
     // whatever type of data you want.) Let’s start with 10 items. Declare an array variable and
@@ -103,6 +105,68 @@ class Program
         Console.WriteLine("Result", result);
     }
 
+    public int[] RotateSum(int[] arr, int k)
+    {
+        int[] result = { };
+        for (int i = 0; i < Array.MaxLength; i++)
+        {
+            if (i + k < Array.Length)
+            {
+                result.Add(arr[i] + arr[i + k]);
+            }
+            result.Add(arr[i] + arr[k - i]);
+
+        }
+        Console.WriteLine("Result", result);
+    }
+
+    public int[] LongestSeq(int[] arr)
+    {
+        int count = 1;
+        int longestNum = numbers[0];
+        int longestCount = 1;
+
+        for (int i = 1; i < numbers.Length; i++)
+        {
+            if (numbers[i] != numbers[i - 1])
+            {
+                count = 0;
+            }
+            count++;
+            if (count > longestCount)
+            {
+                longestCount = count;
+                longestNum = numbers[i];
+            }
+        }
+        Console.WriteLine(string.Join(" ", Enumerable.Repeat(longestNum, longestCount)));
+        int[] result = new int[longestCount];
+        Array.Fill(result, longestNum);
+    }
+
+    pulic findMostFrequentElement(int[] Arr)
+    {
+        int max_freq = 0;
+        int ans = -1;
+        int n = Arr.Length;
+        for (int i = 0; i < n; i++)
+        {
+            int curr_freq = 1;
+            for (j = i + 1; j < n; j++)
+                if (Arr[j] == Arr[i])
+                    curr_freq = curr_freq + 1;
+
+            if (max_freq < curr_freq)
+            {
+                max_freq = curr_freq;
+                ans = Arr[i];
+            }
+            else if (max_freq == curr_freq)
+                ans = min(ans, Arr[i]);
+        }
+        Console.WriteLine(ans);
+    }
+
     public string ReverseStringOne(string s)
     {
         if (s == null)
@@ -115,6 +179,23 @@ class Program
             char c = chars[i]; chars[i] = chars[j]; chars[j] = c;
         }
         string res = new string(chars); return res;
+    }
+
+    static static string ReverseWords(string str)
+    {
+        return String.Join(" ", str.Split('.', ' ').Reverse()).ToString();
+    }
+
+    static static string FindPalindromes(string str)
+    {
+        string[] words = str.Split(',', ' ');
+        foreach (string w in words)
+        {
+            if (w == w.Reverse())
+            {
+                Console.WriteLine(words);
+            }
+        }
     }
 
     public void ParseUrl(string url)
