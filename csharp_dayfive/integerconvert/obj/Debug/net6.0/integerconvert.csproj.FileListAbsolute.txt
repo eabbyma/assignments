@@ -1,0 +1,15 @@
+/Users/e/Desktop/Antra/assignments/csharp_dayfive/integerconvert/obj/Debug/net6.0/integerconvert.csproj.AssemblyReference.cache
+/Users/e/Desktop/Antra/assignments/csharp_dayfive/integerconvert/obj/Debug/net6.0/integerconvert.GeneratedMSBuildEditorConfig.editorconfig
+/Users/e/Desktop/Antra/assignments/csharp_dayfive/integerconvert/obj/Debug/net6.0/integerconvert.AssemblyInfoInputs.cache
+/Users/e/Desktop/Antra/assignments/csharp_dayfive/integerconvert/obj/Debug/net6.0/integerconvert.AssemblyInfo.cs
+/Users/e/Desktop/Antra/assignments/csharp_dayfive/integerconvert/obj/Debug/net6.0/integerconvert.csproj.CoreCompileInputs.cache
+/Users/e/Desktop/Antra/assignments/csharp_dayfive/integerconvert/bin/Debug/net6.0/integerconvert
+/Users/e/Desktop/Antra/assignments/csharp_dayfive/integerconvert/bin/Debug/net6.0/integerconvert.deps.json
+/Users/e/Desktop/Antra/assignments/csharp_dayfive/integerconvert/bin/Debug/net6.0/integerconvert.runtimeconfig.json
+/Users/e/Desktop/Antra/assignments/csharp_dayfive/integerconvert/bin/Debug/net6.0/integerconvert.dll
+/Users/e/Desktop/Antra/assignments/csharp_dayfive/integerconvert/bin/Debug/net6.0/integerconvert.pdb
+/Users/e/Desktop/Antra/assignments/csharp_dayfive/integerconvert/obj/Debug/net6.0/integerconvert.dll
+/Users/e/Desktop/Antra/assignments/csharp_dayfive/integerconvert/obj/Debug/net6.0/refint/integerconvert.dll
+/Users/e/Desktop/Antra/assignments/csharp_dayfive/integerconvert/obj/Debug/net6.0/integerconvert.pdb
+/Users/e/Desktop/Antra/assignments/csharp_dayfive/integerconvert/obj/Debug/net6.0/integerconvert.genruntimeconfig.cache
+/Users/e/Desktop/Antra/assignments/csharp_dayfive/integerconvert/obj/Debug/net6.0/ref/integerconvert.dll
