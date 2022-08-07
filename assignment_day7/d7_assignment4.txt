@@ -1,16 +1,32 @@
 04 Generics
 Test your Knowledge
 1. Describe the problem generics address.
+Generic is a class which allows the user to define classes and methods with the placeholder. 
+
 2. How would you create a list of strings, using the generic List class?
+List<T> Class
+
 3. How many generic type parameters does the Dictionary class have?
+Dictionary<TKey,TValue> generic type has two type parameters, TKey and TValue , that represent the types of its keys and values.
+
 4. True/False. When a generic class has multiple type parameters, they must all match.
+
 5. What method is used to add items to a List object?
+List.Insert()
+
 6. Name two methods that cause items to be removed from a List.
+Using the remove() method. Using the list object's pop() method.
+
 7. How do you indicate that a class has a generic type parameter?
+A generic type is declared by specifying a type parameter in an angle brackets after a type name, e.g. TypeName<T> where T is a type parameter.
+
 8. True/False. Generic classes can only have one generic type parameter.
+
 9. True/False. Generic type constraints limit what can be used for the generic type.
+
 10. True/False. Constraints let you use the methods of the thing you are constraining to.
 Practice working with Generics
+
 1. Create a custom Stack class MyStack<T> that can be used with any data type which
 has following methods
 1. int Count()
