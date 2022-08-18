@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            background-color: rgb(23, 23, 54);
+        }
+
+        li {
+            float: left;
+        }
+
+        li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        li a:hover {
+            background-color: #111;
+        }
+
+        img {
+            width: 50px;
+            height: 20px;
+        }
+
+        .search-container {
+            float: right;
+        }
+    </style>
+</head>
+
+<body>
+
+    <ul>
+        <li><a class="active" href="#home"> <img
+                    src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/v1509672717/skbiqeyduku0glqv7rq3.jpg"
+                    alt="Antra logo"></a></li>
+        <li><a class="active" href="#home">NEWS</a></li>
+        <li><a href="#news">ABOUT THE UNIVERSITY</a></li>
+        <li><a href="#contact">TRAINING COURSES</a></li>
+        <li><a href="#about">FOR COMPANYIES</a></li>
+        <li><a href="#about">FORUM</a></li>
+        <li><a href="#about">CONTACTS</a></li>
+        <div class="search-container">
+            <form action="/action_page.php">
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </ul>
+
+</body>
+
+</html>
