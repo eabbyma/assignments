@@ -2,61 +2,256 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E MA Day 16 Assignment</title>
-    <style>
-        .ans, nav {
-            background-color: lightgrey;
-            margin: 50px 50px 50px 50px;
-        }
-        table {
-            width: 100%;
-        }
-        td,
-        th {
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>E MA Day 16 Assignment</title>
+  <style>
+    body {
+      background-color: lightblue;
+      padding: 80px;
+    }
 
-            text-align: center;
-            padding: 8px;
-        }
-    </style>
+    img {
+      width: 100px;
+      height: 100px;
+      border-radius: 50%;
+    }
+
+    .ans,
+    nav {
+      background-color: white;
+      margin: 80px 80px 80px 80px;
+      float: left;
+      padding: 20px;
+    }
+
+    .ans2 {
+      margin: 80px 80px 80px 80px;
+      border: 1px solid black;
+    }
+
+    .ans2>table tr td {
+      border: 1px solid black;
+      background-color: white;
+    }
+
+    .ans2>table tr th {
+      border: 1px solid black;
+      background-color: white;
+    }
+
+    table {
+      width: 100%;
+    }
+
+    td,
+    th {
+      text-align: center;
+      padding: 8px;
+    }
+
+    span {
+      font-weight: bold;
+    }
+
+    tfoot tr td {
+      text-align: right;
+    }
+  </style>
 </head>
 
 <body>
-    <h1> E MA Day 16 - Homework: HTML5 Tables</h1>
+  <h3>------------------------------------------------------------</h3>
+  <h1> E MA </h1>
+  <h3>Day 16 Homework: HTML5 Tables</h3>
+  <h3>------------------------------------------------------------</h3>
 
-    <div>
-        <h2>Problem 1.Simple Table </h2>
-    </div>
-    <div class="ans">
-        <nav class="nav">
-        <img src="https://antra.net/" alt="Antra logo">
-        <h1>Antra</h1>
-        </nav>
-        <table>
-            <tr>
-                <th>Business Advisory Services<s/th>
-                <th>Technology</th>
-                <th>Professional</th>
-            </tr>
-            <tr>
-                <td>Business Advisory Services</td>
-                <td>Technology</td>
-                <td>Professional</td>
-            </tr>
-            <tr>
-                <td>Content 1</td>
-                <td>Content 2</td>
-                <td>Content 3</td>
-            </tr>
-        </table>
-    </div>
+  <div>
+    Problem 1. Simple Table | Createan HTML page like the image below(100% accuracy is not required).
+  </div>
+  <div class="ans">
+    <nav class="nav">
+      <img
+        src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/v1509672717/skbiqeyduku0glqv7rq3.jpg"
+        alt="Antra logo">
+    </nav>
+    <table>
+      <tr>
+        <th class="icon"><img src="https://images.megapixl.com/5824/58249368.jpg" alt="Antra logo"></th>
+        <th class="icon"><img src="https://images.megapixl.com/5824/58249368.jpg" alt="Antra logo"></th>
+        <th class="icon"><img src="https://images.megapixl.com/5824/58249368.jpg" alt="Antra logo"></th>
+      </tr>
+      <tr>
+        <td>Business</td>
+        <td>Technology</td>
+        <td>Professional</td>
+      </tr>
+      <tr>
+        <td>The Row block and the Stack block are a design block type that allows you to insert multiple blocks in a row
+          (or column with the Stack block) and space them out evenly. You can use the Row or Stack block to create
+          separators or add various elements on the same line as if included in columns.</td>
+        <td>The Row block and the Stack block are a design block type that allows you to insert multiple blocks in a row
+          (or column with the Stack block) and space them out evenly. You can use the Row or Stack block to create
+          separators or add various elements on the same line as if included in columns.</td>
+        <td>The Row block and the Stack block are a design block type that allows you to insert multiple blocks in a row
+          (or column with the Stack block) and space them out evenly. You can use the Row or Stack block to create
+          separators or add various elements on the same line as if included in columns.</td>
+      </tr>
+    </table>
+  </div>
 
-    <div>Problem 2.Exam Results</div>
-    <div>Problem 3.Nested Tables</div>
-    <div>Problem 4.Life in Antra</div>
-    <div>Problem 5.**"Life in Antra"Keyboard</div>
+  <div>Problem 2. Exam Results | Createan HTML tablelike the image below(100% accuracy is not required).Use semantic
+    table tags: <thead>,
+    <tfoot>, <tbody>, etc.
+  </div>
+  <div class="ans2">
+    <table>
+      <thead>
+        <tr>
+          <td colspan="4"><span>Web fundamentals rxam results</span></td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+
+          <td><span>No</span></td>
+          <td><span>First Name</span></td>
+          <td><span>Last Name</span></td>
+          <td><span>Score</span></td>
+        </tr>
+        <tr>
+          <td>01</td>
+          <td>Gosho</td>
+          <td>Goshev</td>
+          <td>500</td>
+        </tr>
+        <tr>
+          <td>02</td>
+          <td>Gosho</td>
+          <td>Goshev</td>
+          <td>500</td>
+        </tr>
+        <tr>
+          <td>03</td>
+          <td>Gosho</td>
+          <td>Goshev</td>
+          <td>500</td>
+        </tr>
+        <tr>
+          <td>04</td>
+          <td>Gosho</td>
+          <td>Goshev</td>
+          <td>500</td>
+        </tr>
+        <tr>
+          <td>05</td>
+          <td>Gosho</td>
+          <td>Goshev</td>
+          <td>500</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td colspan="4">Average score from 05 participants: 500</td>
+        </tr>
+      </tfoot>
+    </table>
+  </div>
+
+
+  <div>Problem 3.Nested Tables | Createan HTML tablelike the image below by using nested table(100% accuracy is not
+    required).Link the Antralogo with https://antra.net/. Make the link open in new tab.</div>
+  <div class="ans2">
+    <table>
+      <tbody>
+        <tr>
+          <td rowspan="2"><img
+              src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco,dpr_1/v1509672717/skbiqeyduku0glqv7rq3.jpg"
+              alt="Antra logo"></td>
+          <td><span>Software</span></td>
+        </tr>
+        <tr>
+          <td><span>Developer</span></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div>Problem 4.Life in Antra | Createan HTML page like the image below(100% accuracy is not required).</div>
+  <div class="ans2">
+    <table>
+      <tbody>
+        <thead>
+          <tr>
+            <th colspan="4" style="font-size: 80px;"><span>Antra LIFE</span></th>
+          </tr>
+        </thead>
+        <tr>
+          <td colspan="2" style="text-align: left;vertical-align: top; height: 80px;">Google</td>
+          <td colspan="2" style="text-align: right; vertical-align: bottom;height: 80px;">GitHub</td>
+        </tr>
+        <tr>
+          <td style="text-align: left;vertical-align: top; height: 80px;">FB</td>
+          <td style="text-align: center; height: 80px;">Gmail</td>
+          <td style="text-align: right;vertical-align: center; height: 80px;">YouTuBe</td>
+          <td style="text-align: left;">2048</td>
+        </tr>
+        <tr>
+          <td rowspan="2" style="text-align: right;vertical-align: bottom; height: 80px;">Food</td>
+          <td colspan="2" rowspan="2" style="text-align: left;vertical-align: bottom; height: 80px;">Game</td>
+          <td>Social Life</td>
+        <tr>
+          <td>Sleep</td>
+        </tr>
+        </tr>
+        <tr>
+          <td colspan="3" style="text-align: right;vertical-align: right; height: 100px; font-size: 30px;">Beer ></td>
+          <td>WC</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div>Problem 5.**"Life in Antra"Keyboard | Createan HTML page like the image below (100% accuracy is not required).
+    The buttonsmust open web pages in new tab(by your choice). You can change the content of the buttons by your liking.
+  </div>
+
+  <div>
+    <div class="ans2">
+      <table>
+        <tbody>
+          <thead>
+            <tr>
+              <th colspan="4"><span><a href="https://antra.talentlms.com/">Antra LIFE </a></span></th>
+            </tr>
+          </thead>
+          <tr>
+            <td colspan="2"><a href="https://antra.talentlms.com/">Google</a></td>
+            <td colspan="2"><a href="https://antra.talentlms.com/">Github </a></td>
+          </tr>
+          <tr>
+            <td><a href="https://antra.talentlms.com/">FB</a></td>
+            <td><a href="https://antra.talentlms.com/">Gmail</a></td>
+            <td><a href="https://antra.talentlms.com/">YouTuBe</a></td>
+            <td><a href="https://antra.talentlms.com/">2048</a></td>
+          </tr>
+          <tr>
+            <td rowspan="2"><a href="https://antra.talentlms.com/">Food</a></td>
+            <td colspan="2" rowspan="2"><a href="https://antra.talentlms.com/">Game</a></td>
+            <td><a href="https://antra.talentlms.com/">Social Life</a></td>
+          <tr>
+            <td><a href="https://antra.talentlms.com/">Sleep</a></td>
+          </tr>
+          </tr>
+          <tr>
+            <td colspan="3"><a href="https://antra.talentlms.com/">Beer ></a></td>
+            <td><a href="https://antra.talentlms.com/">WC</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
 </body>
 
 </html>
